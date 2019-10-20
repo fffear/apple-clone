@@ -11,7 +11,8 @@
 }
 
 .bg-grey-grad:hover {
-  background-image: linear-gradient(rgb(80, 80, 80) 50%, rgb(92, 92, 92) 50%);
+  background-image: radial-gradient(circle 75px, rgba(0, 0, 0, 0.11) 50%, rgba(255, 255, 255, 0.2)),
+                    linear-gradient(rgb(80, 80, 80) 50%, rgb(92, 92, 92) 50%);
 }
 
 .bg-light-grey-grad {
@@ -21,13 +22,6 @@
 /* box shadow */
 .shadow {
   box-shadow: 0 2px 1px inset rgb(51, 51, 51);
-}
-
-/* clearfix */
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 /* flex */
@@ -75,7 +69,7 @@
 .grid-nav {
   display: grid;
   grid-template-columns: repeat(8, 104px) 132px;
-  height: 30px;
+  height: 36px;
 }
 
 /* grid-autofit */
@@ -254,10 +248,6 @@
   display: inline-block;
   height: 100%;
 }
-
-/* .h-20p {
-  height: 20px;
-} */
 
 /* height inherit */
 .h-inh {
