@@ -127,7 +127,7 @@
 }
 
 .bd-trans:focus {
-  border: none;
+  outline: none;
 }
 
 .bd-b-white {
