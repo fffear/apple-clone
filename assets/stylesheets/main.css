@@ -122,16 +122,11 @@
   background: yellowgreen;
 }
 
-/* black border */
-.bd-border {
-  border: 1px black solid;
-}
-
 .bd-trans {
   border: 1px transparent solid;
 }
 
-.bd-transparent:focus {
+.bd-trans:focus {
   border: none;
 }
 
