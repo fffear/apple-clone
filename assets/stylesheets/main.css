@@ -1,4 +1,285 @@
-nav { background: yellowgreen; }
-main { background: lightgreen; }
-aside { background: lightsalmon; }
-footer { background: lightslategray; }
+/* background */
+.bg-your-verse-hero {
+  /* border: 1px black solid; */
+  background: url("../images/your_verse_hero.jpg") 50% 100%/105% auto no-repeat;
+  height: 85vh;
+}
+
+/* grey linear gradient background */
+.bg-grey-grad {
+  background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
+}
+
+.bg-grey-grad:hover {
+  background-image: linear-gradient(rgb(80, 80, 80) 50%, rgb(92, 92, 92) 50%);
+}
+
+.bg-light-grey-grad {
+  background-image: linear-gradient(rgb(110, 110, 110) 50%, rgb(138, 138, 138) 50%);
+}
+
+/* box shadow */
+.shadow {
+  box-shadow: 0 2px 1px inset rgb(51, 51, 51);
+}
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* flex */
+.flex-container {
+  display: flex;
+}
+
+/* space between main axis */
+.ma-sb {
+  justify-content: space-between;
+}
+
+/* grid */
+.grid {
+  display: grid;
+}
+
+/* inline grid */
+.il-grid {
+  display: inline-grid;  
+}
+
+.grid-a-flw {
+  grid-auto-flow: column;
+}
+
+.grid-tc-a {
+  grid-template-columns: auto;
+}
+
+.ggc-5 {
+  grid-column-gap: 5px;
+}
+
+.ggc-2 {
+  grid-column-gap: 2px;
+}
+
+.gi-sep:after {
+  content: "|";
+  display: inline;
+}
+
+/* grid nav */
+.grid-nav {
+  display: grid;
+  grid-template-columns: repeat(8, 104px) 132px;
+  height: 30px;
+}
+
+/* grid-autofit */
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-nav li {
+  border: 1px grey solid;
+}
+
+.left-round-bd {
+  border-radius: 5px 0 0 5px;
+}
+
+.right-round-bd {
+  border-radius: 0 5px 5px 0;
+}
+
+.grid-nav li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.grid-nav li:last-child:hover {
+  background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
+}
+
+.round-border {
+  border-radius: 30px;
+}
+
+/* centering */
+.just-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+
+/* bg-transparent */
+.bg-tr {
+  background: transparent;
+}
+
+/* bg-yellowgreen */
+.bg-yg {
+  background: yellowgreen;
+}
+
+/* black border */
+.bd-border {
+  border: 1px black solid;
+}
+
+.bd-trans {
+  border: 1px transparent solid;
+}
+
+.bd-b-white {
+  border-bottom: 2px white solid;
+}
+
+.bd-red-border {
+  border: 1px red solid;
+}
+
+.bd-none {
+  border: 0;
+}
+
+/* main font styling */
+.f3-75 {
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.f2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.f1-5 {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.f0-75 {
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.f0-60 {
+  font-size: 0.60rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* margin bottom small */
+.mar-b-sm {
+  margin-bottom: 0.65rem;
+}
+
+/* margin left small */
+.mar-l-sm {
+  margin-left: 0.3rem;
+}
+
+
+/* margin bottom medium */
+.mar-b-med {
+  margin-bottom: 1.5rem;
+}
+
+/* margin bottom large */
+.mar-b-lar {
+  margin-bottom: 5rem;
+}
+
+/* padding top large */
+.pad-t-lar {
+  padding-top: 6rem;
+}
+
+/* td-none */
+.td-none {
+  text-decoration-line: none;
+}
+
+/* center div displayed as block */
+.center-div {
+  margin: 0 auto;
+}
+
+.text-align-c {
+  text-align: center;
+}
+
+/* 60% width */
+.w-60 {
+  width: 60%;
+}
+
+/* 75% width */
+.w-75 {
+  width: 75%;
+}
+
+/* 70% width */
+.w-70 {
+  width: 70%;
+}
+
+/* 100% width */
+.w-100 {
+  width: 100%;
+}
+
+.w-100p {
+  width: 100px;
+}
+
+/* 964px width */
+.w-964p {
+  width: 964px;
+}
+
+/* height 100% */
+.h-100 {
+  display: inline-block;
+  height: 100%;
+}
+
+/* .h-20p {
+  height: 20px;
+} */
+
+/* height inherit */
+.h-inh {
+  height: inherit;
+}
+
+/* white color text */
+.white {
+  color: white;
+}
+
+/* light blue color text */
+.light-blue {
+  color: rgb(0, 136, 204);
+}
+
+/* light grey color text */
+.light-grey {
+  color: rgb(110, 110, 110);
+}
+
+/* hover underline */
+.hov-under:hover {
+  text-decoration-line: underline;
+}
