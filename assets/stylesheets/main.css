@@ -131,6 +131,10 @@
   border: 1px transparent solid;
 }
 
+.bd-transparent:focus {
+  border: none;
+}
+
 .bd-b-white {
   border-bottom: 2px white solid;
 }
